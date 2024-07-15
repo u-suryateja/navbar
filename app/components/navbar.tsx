@@ -65,7 +65,7 @@ const Navbar = () => {
       {/* mobile query */}
 
       
-      <Drawer title="Basic Drawer" placement="right" onClose={onClose} visible={open}>
+      <Drawer title="Basic Drawer" placement="right" onClose={onClose} visible={open} width={400}>
         <div className='items-center justify-between list-none font-medium space-y-4'>
           <li className="text-black hover:border-blue-700 uppercase font-medium">
             <a href="#" className="flex items-center justify-between" onClick={toggleDropdown}>
